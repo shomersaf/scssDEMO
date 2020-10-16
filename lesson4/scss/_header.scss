@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    text-decoration: none;
+    color: $linksColor;
+}
+
+.container {
+    max-width: 1142px;
+    margin: 0 auto;
+}
+
+
+
+.header_upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.search {
+    width: 605px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 165px;
+}
+
+.logo img {
+    width: 59px;
+    height: 51px;
+    margin-top: 25px;
+}
+
+.name {
+    margin-top: 45px;
+    margin-left: 13px;
+    color: $linksColor;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 19px;
+}
+
+.browse {
+    width: 87px;
+    height: 39px;
+    }
+
+.browse button {
+    width: 87px;
+    height: 39px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid $browseBorder;
+    background-color: $browseButtonBg;
+    text-transform: capitalize;
+    color: $linksColor;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 15px;
+}
+.browse button:hover,
+.browse button:active {
+    background-color: $browseHoverBg;
+}
+
+.browse button:focus {
+    outline: 0;
+}
+
+.browse i {
+    margin-left: 8px;
+
+}
+
+.browse i,
+.browse i:hover,
+.browse i:active,
+.browse i:visited,
+.browse i:link {
+    color: $linksColor;
+}
+
+.search_for_item {
+    width: 317px;
+    height: 38px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid $browseBorder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search_for_item input:focus {
+    outline: 0;
+}
+
+.magnifier {
+    height: 38px;
+    width: 38px;
+}
+
+.magnifier button {
+    height: 38px;
+    width: 38px;
+    background-color: $mainWhite;
+    border: 0;
+    border-left: 1px solid $browseBorder;
+    border-right: 1px solid $browseBorder;
+    outline: 0;
+}
+
+.magnifier button:focus {
+    outline: 0;
+}
+
+
+.magnifier i {
+    width: 14px;
+    height: 14px;
+    color: $magnifier;
+    
+
+}
+
+.magnifier i:hover,
+.magnifier i:link,
+.magnifier i:active,
+.magnifier i:visited {
+
+    color: $magnifier;
+
+}
+
+.search_form input {
+    width: 280px;
+    height: 38px;
+    border: 0;
+    padding-left: 15px;
+}
+
+
+::-webkit-input-placeholder {
+    color: $magnifier;
+}
+
+::-moz-placeholder {
+    color: $magnifier;
+}
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: $magnifier;
+}
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: $magnifier;
+}
+
+.letter {
+    color: $hoverColor;
+    font-weight: 900;
+}
+
+.search_pannel {
+    max-width: 403px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.account {
+    max-width: 188px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart img {
+    width: 32px;
+    height: 29px;
+    margin-top: 40px;
+}
+
+
+.my_account {
+    width: 130px;
+    height: 38px;
+    margin-left: 26px;
+    margin-top: 31px;
+}
+
+.my_account button{
+    width: 130px;
+    height: 38px;
+    background-color:$hoverColor;
+    color: $mainWhite;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+    padding-left: 19px;
+    text-transform: capitalize;
+    border: 0;
+}
+
+.my_account button a{
+    color: $mainWhite;
+}
+
+.my_account button:hover,
+.my_account button:active {
+    background-color: $myAccoutHover;
+}
+
+.my_account button:focus {
+    outline: 0;
+}
+
+.my_account i {
+    margin-left: 8px;
+}
+
+.my_account i,
+i:hover,
+i:visited,
+i:link,
+i:active {
+    color: $mainWhite;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 680px;
+    height: 51px;
+    color: $linksColor;
+    background-color: $mainWhite;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.navmenu a:link,
+a:visited {
+    margin-top: 19px;
+    color: $linksColor;
+}
+
+.navmenu a:hover,
+a:active {
+    color:$hoverColor;
+}
+

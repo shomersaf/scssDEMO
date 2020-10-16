@@ -1,0 +1,455 @@
+.cart_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+
+ .first_line {
+     display: flex;
+     width: 1140px;
+     justify-content: space-between;
+     border-bottom: 1px solid $cartRawBorder;
+ }
+
+ .other_columns_new {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    border-bottom: 1px solid $cartRawBorder;
+}
+
+.product_details {
+    width: 40%;
+}
+
+
+.other_columns {
+    width: 60%;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+.other_columns div {
+    background-color: $mainWhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.cart_raw {
+    height: 162px;
+    border-bottom: 1px solid $cartRawBorder;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.second_line {
+    height: 162px;
+}
+
+.cart_raw span {
+    height: 13px;
+    color: $cartRawSpan;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+
+.cart_raw i {
+    color: $cartRawIcon;
+    height: 13px;
+    width: 13px;
+}
+
+.cart_raw i:active, .cart_raw i:visited {
+    color: $cartRawIcon;
+}
+
+.cart_raw i:hover {
+    color: $cartRawSpan;
+}
+
+.cart_raw input {
+    width: 54px;
+    height: 30px;
+    border: 1px solid $cartRawBorder;
+}
+
+.cart_raw input:focus, .cart_raw input:active {
+    outline: none; 
+}
+
+.quantity {
+    ::-webkit-input-placeholder {
+        text-align:center;
+        color: $cartRawSpan;
+    }
+    
+    ::-moz-placeholder {
+        text-align:center;
+        color: $cartRawSpan;
+    }
+    
+    /* Firefox 19+ */
+    :-moz-placeholder {
+        text-align:center;
+        color: $cartRawSpan;
+    }
+    
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+        text-align:center;
+        color: $cartRawSpan;
+    }
+}
+  
+.quantity input {
+    text-align:center;  
+}
+
+
+.cart_basement input {
+    padding-left: 18px;
+    }
+
+.cart_basement input {
+    ::-webkit-input-placeholder {
+        font-weight: 100;
+        color: $cartBasementPh;
+    }
+    
+    ::-moz-placeholder {
+        font-weight: 100;
+        color: $cartBasementPh;
+    }
+    
+    /* Firefox 19+ */
+    :-moz-placeholder {
+        font-weight: 100;
+        color: $cartBasementPh;
+    }
+    
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+        font-weight: 100;
+        color: $cartBasementPh;
+    }
+}
+.cart_header {
+    padding-bottom:0;
+    padding-top:90px;
+    height: 32px;
+    color: $linksColor;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+    border-bottom: 1px solid $cartRawBorder;
+}
+
+.cart_header_new {
+    padding-bottom:0;
+    padding-top:90px;
+    height: 32px;
+    color: $linksColor;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+   }
+
+
+
+.cart_raw_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: -90px;
+}
+
+.cart_raw_pic {
+    width: 100px;
+    height: 115px; 
+    background-color: $cartRawPic;
+    margin-top:22px;
+}
+
+.cart_raw_pic img{
+    width: 100px;
+    height: 115px; 
+    mix-blend-mode: soft-light;
+}
+
+.product_name {
+    color: $linksColor;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+
+.product_name a:hover {
+    color: $hoverColor;
+}
+
+.product_color span, .product_size span {
+    font-size: 13px;
+    color: $productColor;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.product_color, .product_size {
+    font-size: 13px;
+    color: $productColor;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.product_color {
+    margin-top: 25px;
+}
+.product_size {
+    margin-top: 8px;
+}
+
+.description {
+    margin-top: 13px;
+    margin-left: 21px;
+}
+.cart_form {
+    width: 1140px;
+}
+
+.cart_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+    margin-top: 44px;
+}
+
+.cart_buttons span {
+    color: $cartButtonsSp;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart_buttons button {
+    width: 235px;
+    height: 50px;
+    border: 1px solid $cartRawBorder;
+    background-color: $mainWhite;
+}
+.cart_buttons button:focus {
+    outline: none !important;
+}
+.cart_buttons button:active {
+    box-shadow: 0 0 0 1px $cartButtonBtn;
+}
+
+.cart_buttons button:hover {
+    background-color: $browseBorder;
+}
+
+.cart_basement {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
+.total {
+width: 360px;
+height: 214px;
+background-color: $totalBg;
+position: relative;
+}
+
+.sub_total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 101px;
+height: 12px;
+color: $cartButtonsSp;
+font-size: 11px;
+font-weight: 400;
+text-transform: uppercase;
+position: absolute;
+right:43px;
+margin-top: 40px;
+
+}
+
+
+.grand_total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 165px;
+height: 16px;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+position: absolute;
+right:43px;
+margin-top: 66px;
+
+}
+
+.grand_total_left {
+    color: $linksColor;
+}
+
+.grand_total_right {
+    color: $hoverColor;
+}
+
+.proceed {
+    position: absolute;
+    right:43px; 
+    margin-top: 105px;
+    height: 68px;
+    border-top: 1px solid  $proceedBrdr;
+}
+
+.shipping, .coupon {
+    width: 355px;
+}
+.cart_basement_header {
+    height: 16px;
+color: $linksColor;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 22px;
+}
+
+.enter_code {
+color: $mainBlack;
+font-size: 14px;
+font-weight: 400;
+}
+
+.shipping_container input {
+width: 337px;
+height: 45px;
+outline: 1px solid $cartRawBorder;
+border: 0;
+background-color: $mainWhite;
+margin-bottom: 20px;
+}
+
+.country_select{
+    width: 357px;
+    height: 47px;
+    outline: 1px solid $cartRawBorder;
+    border: 0;
+    background-color: $mainWhite;
+    margin-bottom: 20px;
+   /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;*/
+    
+    }
+    
+.postcode {
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+}
+.shipping_button {
+    margin-top: 3px;
+}
+
+.shipping_button button {
+    width: 100px;
+    height: 35px;
+}
+
+.coupon_button button {
+    width: 118px;
+height: 35px;
+}
+
+.shipping_button button:focus, .coupon_button button:focus {
+    outline: none !important;
+}
+
+.shipping_button button:active, .coupon_button button:active {
+    box-shadow: 0 0 0 1px $cartButtonBtn;
+}
+
+.shipping_button button:hover, .coupon_button button:hover {
+    background-color: $browseBorder;
+}
+
+
+.shipping_button span, .coupon_button span {
+color: $cartButtonsSp;
+font-size: 11px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.coupon_container input {
+width: 337px;
+height: 45px;
+outline: 1px solid $cartRawBorder;
+border: 0;
+background-color: $mainWhite;
+margin-bottom: 25px;
+margin-top: 24px;
+}
+
+.cart_basement button {
+border: 1px solid $cartRawBorder;
+background-color: $mainWhite;
+}
+.shipping_container {
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.proceed button {
+    width: 273px;
+    height: 50px;
+    background-color: $hoverColor;
+margin-top: 17px;
+color: $mainWhite;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+    }
+
+.proceed button:focus {
+        outline: 0;
+    }
+.proceed button:hover {
+    background-color: $myAccoutHover;
+}
+
+.country i, .country i:hover, .country i:active, .country i:link, .country i:focus {
+width: 9px;
+height: 6px;
+color: $countryIcon;
+z-index: 10;
+    z-index: 1;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 334px;
+}
+
