@@ -1,0 +1,257 @@
+.checkout {
+    border-bottom: 1px solid #e8e8e8;
+}
+.checkout_area {
+    max-width: 974px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.registration {
+    width: 396px;
+    height: 342px;
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+.headliner {
+    margin-top: 39px;
+    margin-bottom: 39px;
+height: 16px;
+color: #222222;
+font-size: 16px;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.sh_ad_checkout label {  
+height: 13px;
+color: #222222;
+font-size: 13px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.convenience {
+height: 13px;
+color: #b3b2b2;
+font-size: 13px;
+font-weight: 400;
+text-align: left;
+}
+
+.reg_me {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.register_me_guest label {
+    margin-left: 14px;
+color: #222222;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+.register_me label{
+    margin-left: 14px;
+color: #222222;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+.register_me_guest,  .register_me {
+    height: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+ 
+    }
+    
+.save_time {
+color: #222222;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+
+.fast_n_easy, .easy_access {
+
+color: #b3b2b2;
+font-size: 13px;
+font-weight: 400;
+text-align: left;
+}
+
+
+
+
+.fast_n_easy i, .easy_access i {
+margin-right: 4px;
+color: #b3b2b2;
+}
+
+.continue_button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+       color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+               
+    .continue_button:focus {
+        outline: none !important;
+    }
+    
+    .continue_button:active {
+        box-shadow: 0 0 0 1px #ccc;
+    }
+    
+    .continue_button:hover {
+        background-color: $browseBorder;
+    }
+    
+ 
+    .email_addr label, .paswrd label{
+height: 12px;
+color: #222222;
+font-size: 12px;
+font-weight: 500;
+text-align: left;
+text-transform: uppercase;
+    }
+    
+    .email_addr span, .paswrd span{
+color: #ff0d0d;
+    }
+
+    .email_addr_input, .passwrd_input {
+        width: 390px;
+        height: 45px;
+        border: 1px solid #eaeaea;
+background-color: #ffffff;
+    }
+    .email_addr_input:focus, .passwrd_input:focus {
+        outline: none;
+    }
+    .forgot {
+height: 14px;
+color: #222222;
+font-size: 14px;
+font-weight: 500;
+
+    }
+
+.required_fields {
+height: 13px;
+color: #ff0d0d;
+font-size: 13px;
+font-weight: 600;
+}
+  
+.button_area {
+    display: flex;
+    width: 323px;
+    height: 50px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.email_block, .pswrd_block {
+width: 391px;
+height: 80px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.required_block {
+    width: 391px;
+height: 197px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.access_block {
+    height: 39px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.register_block {
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.radio_block {
+    height: 44px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.check_or_reg_block {
+    height: 38px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+}
+
+.billing_chechout,
+.shipping_checkout,
+.method_checkout,
+.payment_checkout,
+.order_review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #e8e8e8;
+    height: 72px;
+}
+.checkout_header {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+   
+.kostyl {
+    width: 11px;
+    height: 11px;
+   margin-right: -19px;
+    border: 2px solid #555555;
+    border-radius: 35px;
+    z-index: -1;
+
+}
+   
+
+
